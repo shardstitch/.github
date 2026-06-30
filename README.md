@@ -4,7 +4,7 @@
 
 Your code is half-written. Your plan is in your head. ShardStitch captures your entire session — git diff, changed files, dependency graph, *and the conversation itself* — and stitches it into the next AI tool. Restart in the same tool, or switch to another, with the work intact.
 
-> 🚀 **Launching on Product Hunt — July 1st.**
+> 🚀 **Launching soon on Product Hunt.**
 
 ### Why it's different
 - 🔒 **100% on-device** — no cloud routing, no telemetry, no lock-in
