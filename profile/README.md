@@ -9,7 +9,7 @@ Your code is half-written. Your plan is in your head. ShardStitch captures your 
 ### Why it's different
 - 🔒 **100% on-device** — no cloud routing, no telemetry, no lock-in
 - 🧠 **Reads disk, not the AI** — works *after* you're already locked out
-- 🔁 **23 AI tools** — hand off to the next one in under 30 seconds
+- 🔁 **31 AI tools** — hand off to the next one in under 30 seconds
 - 🗄️ **Your conversation survives** — an always-on local vault outlasts crashes, rate-limits, and misclick-deletes
 - ♾️ **Pay once, own forever** — no subscriptions
 
