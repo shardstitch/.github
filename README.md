@@ -2,22 +2,41 @@
 
 **3:47pm. Mid-refactor. "Rate limit reached."**
 
-Your code is half-written. Your plan is in your head. ShardStitch captures your entire session — git diff, changed files, dependency graph, *and the conversation itself* — and stitches it into the next AI tool. Restart in the same tool, or switch to another, with the work intact.
+Your code is half-written. The session is blocked. The next AI needs to know what changed, why it changed, and where to continue.
 
-> 🚀 **Launching soon on Product Hunt.**
+ShardStitch builds a continuation packet from surviving project evidence: Git changes, files, dependency context, notes, and available local conversation history. Restart in the same tool or move to another with a clearer account of the unfinished work.
 
-### Why it's different
-- 🔒 **100% on-device** — no cloud routing, no telemetry, no lock-in
-- 🧠 **Reads disk, not the AI** — works *after* you're already locked out
-- 🔁 **23 AI tools** — hand off to the next one in under 30 seconds
-- 🗄️ **Your conversation survives** — an always-on local vault outlasts crashes, rate-limits, and misclick-deletes
-- ♾️ **Pay once, own forever** — no subscriptions
+> 🚀 **[Launched on Product Hunt](https://www.producthunt.com/products/shardstitch)**
 
-Powered by **Hivy** — on-device models that trim your context (94% fewer tokens, measured on a real repo) and route the easy questions to a free local model, so a base plan performs like a pro plan.
+### 🧩 Why ShardStitch
 
-### Get it
-[Website](https://shardstitch.com) · [VS Code](https://marketplace.visualstudio.com/items?itemName=shardstitch.shardstitch) · [npm](https://www.npmjs.com/package/shardstitch) · [PyPI](https://pypi.org/project/shardstitch/) · [Support](mailto:support@shardstitch.com)
+- 🔒 **Local-first recovery** with no ShardStitch telemetry
+- 🧠 **Evidence from disk** when the original session is no longer available
+- 🔁 **31 handoff targets** across native integrations and web-chat workflows
+- 🗄️ **Local conversation history** where supported and captured
+- ✅ **Trust-labeled handoffs** that distinguish verified state from inference
+- ♾️ **One-time purchase** with no subscription
+
+Recovery depends on what was saved or captured. ShardStitch cannot recreate unsaved work or intent that was never recorded. When you send a handoff to another AI service, that service's data policies apply.
+
+### 🐾 Hivy
+
+Hivy is ShardStitch's local verification engine. It helps surface drift and stale-path signals while verified context is rebuilt from current repository evidence.
+
+### 🎨 Planned: ShardDesign
+
+A visual editor for AI-built websites, letting you adjust copy, images, spacing, and layouts directly in your project files.
+
+### 🛡️ Planned: Guardrails MCP
+
+A review workflow that helps AI coding tools examine website discovery, content quality, and technical search issues, then propose evidence-backed repairs.
+
+**ShardDesign and Guardrails MCP are in planning and development, not publicly available yet.** Guardrails is a review workflow, with no promise of rankings or traffic recovery.
+
+### 🚀 Get ShardStitch
+
+[Website](https://shardstitch.com/) · [VS Code](https://marketplace.visualstudio.com/items?itemName=shardstitch.shardstitch) · [npm](https://www.npmjs.com/package/shardstitch) · [PyPI](https://pypi.org/project/shardstitch/) · [Support](mailto:support@shardstitch.com)
 
 ---
 
-🐾 *Hivy — our mascot and Chief Morale Officer — reviews all pull requests by sitting on the keyboard. Every other tool wants to lock you in. We'd rather build the thing that sets you free.*
+🐾 Hivy — our mascot and Chief Morale Officer — reviews all pull requests by sitting on the keyboard. Every other tool wants to lock you in. We'd rather build the thing that sets you free.
